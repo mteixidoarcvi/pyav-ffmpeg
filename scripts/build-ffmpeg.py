@@ -341,7 +341,7 @@ if not os.path.exists(output_tarball):
 
     ffmpeg_package = Package(
         name="ffmpeg",
-        source_url="https://github.com/mteixidoarcvi/FFmpeg/tarball/release/6.0",
+        source_url="https://ffmpeg.org/releases/ffmpeg-6.0.tar.xz",
         build_arguments=ffmpeg_build_args,
     )
 
